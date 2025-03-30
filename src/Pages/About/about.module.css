@@ -1,0 +1,40 @@
+.parent {
+    display: grid;
+    place-items: center;
+    margin-top: 70px;
+    align-items: start;
+    
+  }
+  
+  .grid {
+    display: grid;
+    justify-items: center; 
+  }
+  
+  .grid img {
+    width: 900px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .text {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+
+  @media screen and (max-width: 1024px) { 
+    
+    .grid img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .text {
+      font-size: 0.8rem;
+    }
+
+  
+  }

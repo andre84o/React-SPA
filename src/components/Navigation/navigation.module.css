@@ -1,0 +1,40 @@
+li {
+    list-style: none;
+    gap: 35px;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #bdcf1a;
+  }
+
+.navList a {
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+.active {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+
+  }
