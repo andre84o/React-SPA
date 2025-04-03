@@ -6,7 +6,9 @@ import HamburgerMenu from '../Hamburger';
 const Header = ({onNavigate, currentPage, title}) => {
     return (
         <header className={styles.header}>
+            <a href="/">
             <img className={styles.logo} src="/images/logo.png" alt="Bild1"/>
+            </a>
             <HamburgerMenu onNavigate={onNavigate} currentPage={currentPage} />
             <h1 className={styles.pageTitle}>{title}</h1>
             
